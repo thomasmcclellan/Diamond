@@ -1,5 +1,5 @@
 print('Please type a letter: ')
-l = str(input())
+l = str(input()).lower()
 n = ord(l) - 96
 
 val = 64
